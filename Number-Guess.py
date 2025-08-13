@@ -6,7 +6,7 @@ def number_guess():
     print("Computer has selected a number")
     a=0
     while a!=3:
-        m=int(input("Place Your Guess, You have 3 Guesses"))
+        m=int(input("Place Your Guess, You have ",a," Guesses: "))
         if abs(m-n)>5:
             print("You are not even close lol")
             a+=1
