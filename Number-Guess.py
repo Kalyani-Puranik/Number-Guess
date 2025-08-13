@@ -28,3 +28,4 @@ def number_guess():
     if a==3:
         print("You're all out guesses! Better luck next time!")
         print("The number selected by Computer was ",n)
+number_guess()
